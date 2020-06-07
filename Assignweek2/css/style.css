@@ -8,23 +8,65 @@ h1 {
 }
 .t1, .t2, .t3 {
     float: right;
-    border: black solid 1px;
-    border-top: 0px;
-    border-right: 0px;
-    padding: 3px;
-    margin-top: 0px;
+    border: black solid 0.1rem;
+    border-top: 0rem;
+    border-right: 0rem;
+    padding: 0.3rem;
+    margin-top: 0rem;
+    color: rgba(5, 17, 17, 0.74);
+    
     
 }
-.n1, .n2, .n3 {
-    border: black solid 1px;
-    background-color: lightblue;
-    margin: 10px;
-    float: left;
+/* width */
+::-webkit-scrollbar {
+  width: 0.2rem;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0.3rem grey; 
+  border-radius: 1rem;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 0.2rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+.n1, .n2, .n3 {
+    border: black solid 0.05rem;
+    background-color: lightblue;
+    margin: 0.5rem;
+    float: left;
+}
+.n1 {
+    background-image: url("fruits.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.n2 {
+    background-image: url("Legumes.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.n3 {
+    background-image: url("mix-veg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .p1, .p2, .p3 {
-    background-color: lightblue;
-    padding: 5px;
+    background-color: rgba(194, 118, 5, 0.877);
+    padding: 0.3rem;
+    line-height: 1.5rem;
+    color: rgba(3, 12, 19, 0.747);
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .t1 {
     background-color: sandybrown;
@@ -41,7 +83,9 @@ h1 {
 @media (min-width: 767px)
 {
     .n1 , .n2, .n3{
-    width: 30%;
+    width: 31.50%;
+    height: 20rem;
+    overflow: scroll;
 
 }
 }
@@ -51,6 +95,6 @@ h1 {
         width: 43%;
     }
     .n3 {
-        width: 90%;
+        width: 88%;
     }
 }
