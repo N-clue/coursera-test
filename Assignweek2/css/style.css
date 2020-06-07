@@ -38,7 +38,7 @@ h1 {
     background-color: goldenrod;
 }
 
-@media (min-width: 768px)
+@media (min-width: 767px)
 {
     .n1 , .n2, .n3{
     width: 30%;
@@ -46,7 +46,7 @@ h1 {
 }
 }
 
-@media (max-width: 768px) and (min-width: 426px) {
+@media (max-width: 991px) and (min-width: 768px) {
     .n1, .n2 {
         width: 43%;
     }
