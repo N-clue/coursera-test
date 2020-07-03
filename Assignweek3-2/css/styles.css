@@ -131,6 +131,7 @@ body {
     padding-right: 0px;
     padding-left: 0px;
     margin: 0px;
+    background-color: rgba(106, 63, 163, 0.637);
 }
 .p1 {
     background-size: cover;
@@ -145,8 +146,7 @@ body {
     background-repeat: no-repeat;
 }
 .p1, .p2, .p3 {
-    border: black solid 0.05rem;
-    background-color: antiquewhite;   
+    border: black solid 0.05rem;  
     line-height: 1.5rem;
     color: rgba(3, 12, 19, 0.747);
     font-weight: 600;
@@ -154,6 +154,7 @@ body {
     padding: 0.2rem;
     margin: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
 }
 .t1 {
     background-color: sandybrown;
@@ -167,9 +168,7 @@ body {
     background-color: goldenrod;
 }
 
-#menu {
-    margin: 0px;
-}
+#Menu
 
 /*@media (min-width: 767px)
 {
